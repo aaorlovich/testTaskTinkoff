@@ -2,6 +2,11 @@ package ru.tinkoff.orlovich.tasks.task6.impl;
 
 import lombok.Getter;
 
+
+/**
+ * Кредитная карта - принадлежит семейству карт но имеет свои нюансы, но есть возможность использовать общие методы
+ * все за счет абстрактных карт
+ */
 public class CreditCard extends AbstractCard {
 
     @Getter

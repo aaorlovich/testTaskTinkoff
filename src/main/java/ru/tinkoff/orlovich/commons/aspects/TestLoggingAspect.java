@@ -7,6 +7,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
+
+/**
+ * @author Orlovich Artem
+ * <p>
+ * Аспект предназначенный для выведения в лог имен запущенных методов помеченнх аннотацией @Test фреймворка TestNG
+ * удобно при просмотре логов запуска тестов(не удобно при многопоточном запуске тестов)
+ */
 @Aspect
 public class TestLoggingAspect {
 

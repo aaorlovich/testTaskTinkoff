@@ -5,6 +5,15 @@ import lombok.Setter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * @author Orlovich Artem
+ * <p>
+ * <p>
+ * AbstractAccount - абстрактный класс счета имеет некоторое общее состояние всех продуктов, может выступать в качетсве узла наследования
+ * и имеет характер расширяемости приложения
+ * реализует базовые методы и может использоваться в более узкиз слоях приложения
+ */
+
 public abstract class AbstractAccount implements Product {
     protected Logger logger = LoggerFactory.getLogger(AbstractAccount.class);
 

@@ -4,6 +4,10 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+
+/**
+ * Обычный Pojo объект
+ */
 @EqualsAndHashCode
 public class ObjectA {
     @Getter

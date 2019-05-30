@@ -7,7 +7,12 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
+/**
+ * @author Orlovich Artem
+ * <p>
+ * Аспект предназначенный для выведения в лог имен запущенных методов помеченнх аннотацией @Step
+ * удобно при просмотре логов запуска тестов(не удобно при многопоточном запуске тестов)
+ */
 @Aspect
 public class StepLoggingAspect {
 

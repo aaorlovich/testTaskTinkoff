@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ALL">
-    <!---->
-    <!--<test name="UI_tests" parallel="false">-->
-    <!--<classes>-->
-    <!--<class name=""/>-->
-    <!--</classes>-->
-    <!--</test>-->
+
+    <test name="taskTest" parallel="false">
+        <classes>
+            <class name="ru.tinkoff.orlovich.tasks.task1.NumbersPrinterTest"/>
+            <class name="ru.tinkoff.orlovich.tasks.task2.CollectionsComparatorTest"/>
+            <class name="ru.tinkoff.orlovich.tasks.task3.TxtFileFormatterTest"/>
+            <class name="ru.tinkoff.orlovich.tasks.task4.CharsDeduplicatorTest"/>
+            <class name="ru.tinkoff.orlovich.tasks.task5.SoftAssertionObjectATest"/>
+            <class name="ru.tinkoff.orlovich.tasks.task7.ObjectPoolTest"/>
+        </classes>
+    </test>
 
 </suite>

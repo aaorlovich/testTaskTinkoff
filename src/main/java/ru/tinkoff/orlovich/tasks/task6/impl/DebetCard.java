@@ -1,5 +1,10 @@
 package ru.tinkoff.orlovich.tasks.task6.impl;
 
+
+/**
+ * Еще один законченный продукт.
+ * Есть своя реализация, но полиморфизм нам для того и создан
+ */
 public class DebetCard extends AbstractCard {
 
     public DebetCard(String description, Long balance, String currency) {
