@@ -1,0 +1,6 @@
+<aspectj>
+    <aspects>
+        <aspect name="ru.tinkoff.orlovich.commons.aspects.StepLoggingAspect"/>
+        <aspect name="ru.tinkoff.orlovich.commons.aspects.TestLoggingAspect"/>
+    </aspects>
+</aspectj>
