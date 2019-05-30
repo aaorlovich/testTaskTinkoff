@@ -3,7 +3,7 @@
     <contextName>tinkoffTestTask</contextName>
     <!-- Настройка файловых логов -->
     <!-- Корневая папка с логами -->
-    <property name="logDir" value="log"/>
+    <property name="logDir" value="logs"/>
     <!-- Шаблон сообщения -->
     <property name="encoderPattern"
               value="%d{HH:mm:ss.SSS} [%-5level] [%X{userLogin:-NO_AUTH}:%X{sessionId:-NO_SESSION}] [%thread] %logger{36} - %msg%n"/>
@@ -19,12 +19,14 @@
     <!--Файловый аппендер -->
     <appender name="file" class="ch.qos.logback.core.FileAppender">
         <file>${logDir}/app.log</file>
+        <charset>UTF-8</charset>
         <layout class="ch.qos.logback.classic.PatternLayout">
             <Pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</Pattern>
         </layout>
     </appender>
     <!--Консольный аппендер выводит чисто информацию без классов и прочего для тестирования-->
     <appender name="sout" class="ch.qos.logback.core.ConsoleAppender">
+        <charset>UTF-8</charset>
         <layout class="ch.qos.logback.classic.PatternLayout">
             <Pattern>%msg%n</Pattern>
         </layout>
