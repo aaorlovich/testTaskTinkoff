@@ -18,12 +18,6 @@ public class CharsDeduplicator {
 
     Logger logger = LoggerFactory.getLogger(CharsDeduplicator.class);
 
-    /*Задача про строку.
-    Напишите функцию, которая будет из входной строки удалять парные, идущие друг за другом буквы
-    в одну и на выходе вернуть строку, которая не будет иметь парных, идущих друг за другом букв.
-          Пример: aaabccddd =&gt; abd, baab =&gt; пусто. Вывод – стандартный вывод.
-    */
-
     // этод метод удаляет любые повторяющиеся последовательности до 1 символа
 //    public String deduplicateCharsFromString(String string) {
 //        if (string == null || string.isEmpty()) {
